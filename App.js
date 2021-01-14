@@ -43,7 +43,7 @@ const App: () => React$Node = () => {
       axios.post("http://128.199.185.168/upload-asset", data, {
         headers: {
           'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MTQ4ZDk4YS0xMTZjLTRmOGEtOWY1OS00MmVhYThmNjIxYTEiLCJqdGkiOiI3MmRkYjkzYmZhNjEwNGVhOGFlNzU2NGRkNzMxMDYwNjJhNmUzZjcxYjI0NjRjZDYyOWJjM2JlMTVhYjJjNzFkNTIxZWM2N2Y5M2Q3NjQ0NyIsImlhdCI6MTYxMDUxNzQ3OCwibmJmIjoxNjEwNTE3NDc4LCJleHAiOjE2NDIwNTM0NzgsInN1YiI6IjIiLCJzY29wZXMiOltdfQ.jAH5eGOmzwAXMNAlrJwFnyPEjALX92KMSZnN2K37qAP55lO8TsOJIS2DrHAw7Cgjy0YTWS3ayqK6HWInBtUduTFqKYgsJf8h36ZIoqMYhAvmjUAmGcSp4_sxMOxFeVua81o0xGQ7lFisLqFrEvSpNNAp2ReZFmFdDuE5O0fJiQJB4xwDggvCZeT4DI1rNgxHtYgEwaAJk3D87fglWq7jUSwSF69SjnEjaBezl6cQeI5O2FQbbmHQ9OseKpMUVt8GteaUO7ELUq4vG8aPl0qoWT9fn2dyKjMDZOOyCsGWinygEB97OIgiMEsFG4b3tGnlL8vzJRZVKlBkfxbUqX6AswHfpUr0JQfXlYWUz9e8gD18X0En6s5PPhA94qCN5YUT1raxt0XgReZ6yhAnQ3ykNy_tUexzUGfm-i8TxOS742OXRDH8qNqMns8IY_AsVji2P9LtgvCQxRYRpPkaiBe61yjwVXGe55CsBFK7NSFzAokwol5PYgSe3shJkhbiZp4Kxadu673Vlzji237Pk7gsSoL9f53x9IewC73XayWMhklrAR3x0ReGLGlEG7h7xETOmMxW-Cm-t6WU3yBAMIqRQ8oQXn5ra5X737yxYzyrPniT9LtFB-10ldNX0hgOTF4F6mVP_wP1TEYNR8HXYAozIDpR49lLu-HO-cXQkRMfM-E',        'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json'
+          'Content-Type': 'multipart/form-data'
         }
       })
       .then(res => { 
